@@ -124,6 +124,23 @@ section {
   transform: translateY(-5px);
 }
 
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f26c4f;
+  transform: scale(1.2);
+}
+
 h2 {
   color: #1b325f;
   margin-bottom: 10px;
