@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #e9f2f9;
+  color: #1b325f;
+  padding: 20px;
+}
+
+.header {
+  background-color: #9cc4e4;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #1b325f;
+}
+
+.header .name {
+  font-size: 2.5rem;
+  color: #1b325f;
+  margin-bottom: 10px;
+}
+
+.header q {
+  font-style: italic;
+  color: #1b325f;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3a89c9;
+}
+
+nav {
+  background-color: #3a89c9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav li {
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav li:hover {
+  color: #c5f7f0;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(86, 33, 85, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1b325f;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #a9c2c9;
+  padding-bottom: 5px;
+}
+
+ul li {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+aside {
+  background-color: #3a89c9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+aside h2 {
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #1b325f;
+  border-top: 1px solid #a9c2c9;
+  padding-top: 10px;
+}
